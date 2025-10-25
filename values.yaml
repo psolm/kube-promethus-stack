@@ -2749,7 +2749,7 @@ prometheusOperator:
           ipFamilies: ["IPv6", "IPv4"]
           ipFamilyPolicy: "PreferDualStack"
 
-        ## Port to expose on each node
+        ## Port to expose on each node..
         ## Only used if service.type is 'NodePort'
         ##
         nodePort: 31080
